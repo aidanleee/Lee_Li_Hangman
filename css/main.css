@@ -1,0 +1,42 @@
+svg{
+  height: 330px;
+    opacity: 0;
+}
+.hidden {
+  display: none;
+}
+#mainContainer {
+  width: 960px;
+  margin: 0 auto;
+}
+#mainHeader {
+  text-align: center;
+}
+
+.letter_area {
+  margin-left: 220px;
+  margin-top: 130px;
+  float: left;
+  transform: scale(2);
+}
+.hangman {
+  width: 500px;
+  margin: 20px 0 20px 0;
+  float: right;
+}
+.letter_put {
+  float: left;
+  width: 400px;
+  transform: scale(1.5);
+  margin: -200px 0px 0 240px;
+}
+
+.show-piece {
+   opacity: 1 !important;
+   display: block !important;
+}
+.reset-screen {
+   margin: 350px 0 0 300px;
+   opacity: 0;
+   display: block;
+}
